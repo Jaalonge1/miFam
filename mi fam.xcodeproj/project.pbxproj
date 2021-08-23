@@ -11,6 +11,12 @@
 		78322E6A26D2CCD7005728C6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78322E6926D2CCD7005728C6 /* ContentView.swift */; };
 		78322E6C26D2CCD8005728C6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 78322E6B26D2CCD8005728C6 /* Assets.xcassets */; };
 		78322E6F26D2CCD8005728C6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 78322E6E26D2CCD8005728C6 /* Preview Assets.xcassets */; };
+		78F6C74826D32F6A00880797 /* SpaceGrotesk-VariableFont_wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 78F6C74226D32F6A00880797 /* SpaceGrotesk-VariableFont_wght.ttf */; };
+		78F6C74926D32F6A00880797 /* SpaceGrotesk-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 78F6C74326D32F6A00880797 /* SpaceGrotesk-Medium.ttf */; };
+		78F6C74A26D32F6A00880797 /* SpaceGrotesk-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 78F6C74426D32F6A00880797 /* SpaceGrotesk-Light.ttf */; };
+		78F6C74B26D32F6A00880797 /* SpaceGrotesk-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 78F6C74526D32F6A00880797 /* SpaceGrotesk-Bold.ttf */; };
+		78F6C74C26D32F6A00880797 /* SpaceGrotesk-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 78F6C74626D32F6A00880797 /* SpaceGrotesk-Regular.ttf */; };
+		78F6C74D26D32F6A00880797 /* SpaceGrotesk-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 78F6C74726D32F6A00880797 /* SpaceGrotesk-SemiBold.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +26,12 @@
 		78322E6B26D2CCD8005728C6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		78322E6E26D2CCD8005728C6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		78322E7026D2CCD8005728C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		78F6C74226D32F6A00880797 /* SpaceGrotesk-VariableFont_wght.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SpaceGrotesk-VariableFont_wght.ttf"; sourceTree = "<group>"; };
+		78F6C74326D32F6A00880797 /* SpaceGrotesk-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SpaceGrotesk-Medium.ttf"; sourceTree = "<group>"; };
+		78F6C74426D32F6A00880797 /* SpaceGrotesk-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SpaceGrotesk-Light.ttf"; sourceTree = "<group>"; };
+		78F6C74526D32F6A00880797 /* SpaceGrotesk-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SpaceGrotesk-Bold.ttf"; sourceTree = "<group>"; };
+		78F6C74626D32F6A00880797 /* SpaceGrotesk-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SpaceGrotesk-Regular.ttf"; sourceTree = "<group>"; };
+		78F6C74726D32F6A00880797 /* SpaceGrotesk-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SpaceGrotesk-SemiBold.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +48,7 @@
 		78322E5B26D2CCD7005728C6 = {
 			isa = PBXGroup;
 			children = (
+				78322E7826D2D12A005728C6 /* project_fonts */,
 				78322E6626D2CCD7005728C6 /* mi fam */,
 				78322E6526D2CCD7005728C6 /* Products */,
 			);
@@ -67,6 +80,27 @@
 				78322E6E26D2CCD8005728C6 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		78322E7826D2D12A005728C6 /* project_fonts */ = {
+			isa = PBXGroup;
+			children = (
+				78322E8526D2D161005728C6 /* SpaceGrotesk */,
+			);
+			path = project_fonts;
+			sourceTree = "<group>";
+		};
+		78322E8526D2D161005728C6 /* SpaceGrotesk */ = {
+			isa = PBXGroup;
+			children = (
+				78F6C74326D32F6A00880797 /* SpaceGrotesk-Medium.ttf */,
+				78F6C74526D32F6A00880797 /* SpaceGrotesk-Bold.ttf */,
+				78F6C74426D32F6A00880797 /* SpaceGrotesk-Light.ttf */,
+				78F6C74626D32F6A00880797 /* SpaceGrotesk-Regular.ttf */,
+				78F6C74726D32F6A00880797 /* SpaceGrotesk-SemiBold.ttf */,
+				78F6C74226D32F6A00880797 /* SpaceGrotesk-VariableFont_wght.ttf */,
+			);
+			path = SpaceGrotesk;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,7 +160,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				78F6C74B26D32F6A00880797 /* SpaceGrotesk-Bold.ttf in Resources */,
+				78F6C74926D32F6A00880797 /* SpaceGrotesk-Medium.ttf in Resources */,
+				78F6C74C26D32F6A00880797 /* SpaceGrotesk-Regular.ttf in Resources */,
 				78322E6F26D2CCD8005728C6 /* Preview Assets.xcassets in Resources */,
+				78F6C74D26D32F6A00880797 /* SpaceGrotesk-SemiBold.ttf in Resources */,
+				78F6C74A26D32F6A00880797 /* SpaceGrotesk-Light.ttf in Resources */,
+				78F6C74826D32F6A00880797 /* SpaceGrotesk-VariableFont_wght.ttf in Resources */,
 				78322E6C26D2CCD8005728C6 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
